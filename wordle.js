@@ -61,6 +61,19 @@ function initialize() {
 
 function update() {
     let correct = 0;
+    let LetterCount = {}; //count of letters in the word
+    for (let i = 0; i < word.length; i++) {
+        if (LetterCount[letter]) {
+            LetterCount[letter] += 1;
+        }
+
+        else {
+            LetterCount[letter] = 1;
+        } 
+    }
+
+
+    
     for (let c = 0; c < width; c++) {
         let currTile = document.getElementById(row.toString() + "-" + c.toString());
         let letter = currTile.innerText;
