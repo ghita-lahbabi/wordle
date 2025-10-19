@@ -1,7 +1,11 @@
-# Force JS detection
+# Compter le JS comme JavaScript
 wordle.js linguist-language=JavaScript
+wordle.js -linguist-vendored
+wordle.js -linguist-generated
+wordle.js -linguist-documentation
+wordle.js linguist-detectable=true
 
-# Ignore styling & docs in stats
-wordle.css linguist-vendored
+# Ignorer ces fichiers dans le graph (si tu veux toujours les cacher)
 index.html linguist-vendored
-README.md linguist-documentation
+wordle.css  linguist-vendored
+README.md   linguist-documentation
