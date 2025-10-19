@@ -4,8 +4,3 @@ wordle.js -linguist-vendored
 wordle.js -linguist-generated
 wordle.js -linguist-documentation
 wordle.js linguist-detectable=true
-
-# Ignorer ces fichiers dans le graph (si tu veux toujours les cacher)
-index.html linguist-vendored
-wordle.css  linguist-vendored
-README.md   linguist-documentation
