@@ -1,1 +1,4 @@
-*.js linguist-language=JavaScript
+*.js linguist-detectable=true
+*.css linguist-detectable=true
+*.html linguist-detectable=true
+*.md linguist-documentation=true
