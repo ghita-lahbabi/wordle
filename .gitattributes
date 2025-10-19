@@ -1,2 +1,7 @@
+# Force JS detection
 wordle.js linguist-language=JavaScript
 
+# Ignore styling & docs in stats
+wordle.css linguist-vendored
+index.html linguist-vendored
+README.md linguist-documentation
