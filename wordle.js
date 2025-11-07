@@ -16,12 +16,11 @@ fetch('data/words.json')
     .then(response => response.json())
     .then(data => {
         wordList = data.wordList;
-        guessList = data.guessList.concat(wordList);
+        guessList = wordList; 
         word = wordList[Math.floor(Math.random() * wordList.length)].toUpperCase();
         console.log(word);
         intialize();
     });
-
 function intialize() {
 
     // Create the game board
