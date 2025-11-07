@@ -1,6 +1,7 @@
-# Compter le JS comme JavaScript
 wordle.js linguist-language=JavaScript
 wordle.js -linguist-vendored
 wordle.js -linguist-generated
 wordle.js -linguist-documentation
 wordle.js linguist-detectable=true
+
+data/words.json linguist-vendored
